@@ -1,0 +1,11 @@
+@use 'media.scss' as media;
+
+// 设置header-layout 和 main-layout的padding-left
+@mixin layout-padding($padding-left) {
+  padding-left: calc(var(--aside-width) + $padding-left);
+
+
+  @include media.xs {
+    padding-left: $padding-left;
+  }
+}

@@ -1,0 +1,21 @@
+// 全局公共样式
+.content-container {
+  height: 100%;
+
+  .container__main {
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flow-root; // bfc， 清除外边距折叠
+    height: calc(100% - 70px);
+  }
+
+  .container__footer {
+    height: 70px;
+    padding: 1.4em 1em 0 1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+}
+

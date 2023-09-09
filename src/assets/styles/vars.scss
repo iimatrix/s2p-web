@@ -1,0 +1,20 @@
+@use './media.scss' as media;
+
+:root {
+  --color-primary: #2b3138;
+  --aside-width: 240px;
+  --header-height: 90px;
+  --layout-font-color: #a4a6a7;
+  --main-bg-color: #f4f4f4;
+
+  --main-color-primary: #409eff;
+
+
+
+  @include media.lg {
+    --aside-width: 240px;
+  }
+}
+
+
+

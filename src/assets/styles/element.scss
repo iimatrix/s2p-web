@@ -1,0 +1,25 @@
+// 覆盖element的css
+
+body {
+  --el-menu-bg-color: var(--color-primary); // 覆盖menu背景色
+  --el-bg-color-overlay: var(--color-primary); 
+  --el-menu-text-color: var(--layout-font-color); // 覆盖图标颜色
+  --el-menu-hover-text-color: var(--layout-font-color); 
+  --el-menu-bg-color: var(--color-primary);
+  --el-menu-hover-bg-color: var(--color-primary);
+  --el-menu-active-color: #fff;
+}
+
+.el-menu--popup  {
+  background-color: var(--color-primary);
+}
+
+
+.el-popper {
+  border: none !important;
+}
+
+.el-tooltip__trigger,
+.el-menu-item.el-menu-item.el-menu-item {
+    border-bottom: none !important;
+}

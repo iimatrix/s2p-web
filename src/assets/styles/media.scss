@@ -1,0 +1,18 @@
+// 设置媒体查询 mixin
+@mixin xs {
+  @media screen and (max-width: 768px) {
+    @content; // 使用 @content 插入不同的CSS规则
+  }
+}
+
+@mixin md {
+  @media screen and (max-width: 992px) {
+    @content; // 使用 @content 插入不同的CSS规则
+  }
+}
+
+@mixin lg {
+  @media screen and (min-width: 1200px) {
+    @content; // 使用 @content 插入不同的CSS规则
+  }
+}
